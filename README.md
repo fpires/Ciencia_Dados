@@ -83,9 +83,11 @@ Dois tipos de modelos foram aplicados:
 
 ## Resultados e Conclusões
 
-* **Classificação (Nível de Obesidade):** O modelo **Árvore de Decisão** demonstrou um desempenho excepcional na classificação dos níveis de obesidade, atingindo uma **acurácia média de 99%** com altíssima estabilidade. A capacidade de distinguir entre as diferentes categorias é muito alta.
-* **Regressão (Previsão de BMI):** O modelo de **Regressão Linear** para prever o IMC apresentou um desempenho moderado, explicando cerca de 48% da variabilidade. Embora capture a tendência geral, há espaço para melhorias na precisão das previsões de IMC, possivelmente através de modelos mais complexos ou mais engenharia de features.
-* A análise exploratória foi crucial para entender as relações entre as variáveis e a importância de fatores como peso e IMC na determinação dos níveis de obesidade.
+## Resultados e Conclusões
+* **Classificação (Nível de Obesidade):** O modelo **Random Forest** demonstrou um desempenho excepcional na classificação dos níveis de obesidade, atingindo uma **acurácia média de 99%** na validação cruzada, com altíssima estabilidade. A capacidade do modelo de distinguir entre as diferentes categorias de peso é muito alta, superando outros modelos como a Árvore de Decisão (96%) e a Regressão Logística (78%).
+* **Regressão (Previsão de BMI):** O modelo de **Regressão Linear** para prever o IMC apresentou um desempenho moderado, explicando cerca de 48% da variabilidade dos dados, conforme validado pela análise de K-Fold. Embora capture a tendência geral, há espaço para melhorias na precisão das previsões de IMC, possivelmente através de modelos mais complexos ou mais engenharia de features.
+* A análise exploratória foi crucial para entender as relações entre as variáveis e confirmar a importância de fatores como peso, histórico familiar e hábitos alimentares na determinação dos níveis de obesidade.
+
 
 ## Como Executar o Projeto
 
